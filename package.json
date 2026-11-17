@@ -1,0 +1,12 @@
+{
+  "name": "seconds",
+  "version": "1.0.0",
+  "description": "A live market for surplus food, priced by the clock. Team axon, Rewired 2026.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/api.test.js",
+    "stress": "node econ/stress.js 400"
+  },
+  "engines": { "node": ">=18" }
+}

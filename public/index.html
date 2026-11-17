@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0d10">
+<title>Seconds · surplus food, priced by the clock</title>
+<meta name="description" content="Shops sell surplus food with photos. The price drops as the food clock runs down and the last hour is free. Buyers nearby eat for less; nothing goes in the bin.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='12' fill='none' stroke='%23ff8a3d' stroke-width='4' stroke-dasharray='56 100' stroke-linecap='round' transform='rotate(-90 16 16)'/%3E%3Cpath d='M16 9v7l4 3' stroke='%23ff8a3d' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Manrope:wght@400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="market.css">
+</head>
+<body>
+<div id="root"></div>
+<div id="sheet" hidden><div class="scrim" data-act="close"></div><div class="card" role="dialog" aria-modal="true"></div></div>
+<div id="toasts" aria-live="polite"></div>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="map-style.js"></script>
+<script src="market.js"></script>
+</body>
+</html>
